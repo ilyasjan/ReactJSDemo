@@ -11,6 +11,13 @@ html{
     height:100%;
 }
 
+.col-lg-1 {
+    border-right:1px solid #dbefff;
+    height:100%;
+    background: #dbefff;
+    margin: 0px;
+    padding:0px;
+}
 .col-lg-2 {
     border-right:1px solid #e3e3e3;
     height:100%;
@@ -20,4 +27,26 @@ html{
 }
 .col-lg-8{
     height:100%;
+}
+
+.menu{
+    line-height: 40px;
+    height:40px;
+    padding: 0px;
+    margin: 0px;
+    border-bottom: 1px solid #bedbf0;
+}
+
+.col-lg-1 div.list-group{
+    border: none !important;
+    border-radius: 0px;
+    box-shadow: none;
+}
+
+.col-lg-1 div.list-group a{
+    border:none;
+    border-radius: 0px;
+    border-bottom: 1px solid #2aabd2;
+    margin-bottom: 0px;
+    background: none;
 }
